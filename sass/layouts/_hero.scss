@@ -19,7 +19,7 @@
 }
 
 .hero__title {
-  font-family: "Roboto-Black";
+  font-weight: $fw-black;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
@@ -65,7 +65,7 @@
   transition: transform 250ms $cubic-bezier;
 
   &--button {
-    font-weight: 700;
+    font-weight: $fw-bold;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
@@ -89,7 +89,7 @@
 }
 
 .modal__title {
-  font-weight: 700;
+  font-weight: $fw-bold;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
@@ -122,7 +122,7 @@
 .modal__label {
   color: $grey-color;
   text-align: left;
-  font-family: "Roboto-Regular";
+  font-weight: $fw-regular;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -144,7 +144,7 @@
   }
 
   &::placeholder {
-    font-family: "Roboto-Regular";
+    font-weight: $fw-regular;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
@@ -176,7 +176,7 @@
 }
 
 .checkbox {
-  font-family: "Roboto-Regular";
+  font-weight: $fw-regular;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;

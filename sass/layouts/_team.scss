@@ -22,13 +22,13 @@
 .team__title {
   text-align: center;
   margin-bottom: 50px;
-  font-family: "Roboto-Bold";
+  font-weight: $fw-bold;
   font-size: 36px;
   line-height: 1.17;
 }
 
 .team__subtitle {
-  font-family: "Roboto-Medium";
+  font-weight: $fw-medium;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;

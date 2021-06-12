@@ -295,43 +295,8 @@ summary {
   display: list-item;
 }
 
-@font-face {
-  font-family: "Raleway";
-  src: url("../../fonts/Raleway-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Black";
-  src: url("../../fonts/Roboto-Black.ttf");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("../../fonts/Roboto-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Medium";
-  src: url("../../fonts/Roboto-Medium.ttf");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Regular";
-  src: url("../../fonts/Roboto-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
-  font-family: "Roboto-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
 
@@ -397,6 +362,7 @@ input {
 
 .logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
 }
@@ -419,7 +385,7 @@ input {
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
-  font-family: "Roboto-Medium";
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
 }
@@ -504,7 +470,7 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Roboto-Medium";
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -534,7 +500,7 @@ input {
 }
 
 .hero__title {
-  font-family: "Roboto-Black";
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
@@ -654,7 +620,7 @@ input {
 .modal__label {
   color: #757575;
   text-align: left;
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -677,7 +643,7 @@ input {
 }
 
 .modal__textarea::-webkit-input-placeholder {
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -686,7 +652,7 @@ input {
 }
 
 .modal__textarea:-ms-input-placeholder {
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -695,7 +661,7 @@ input {
 }
 
 .modal__textarea::-ms-input-placeholder {
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -704,7 +670,7 @@ input {
 }
 
 .modal__textarea::placeholder {
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -736,7 +702,7 @@ input {
 }
 
 .checkbox {
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -803,7 +769,7 @@ input {
 }
 
 .about__subtitle {
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
@@ -813,7 +779,6 @@ input {
 .about__description {
   color: #757575;
   font-size: 14px;
-  font-family: "Roboto-Regular";
   line-height: 1.71;
 }
 
@@ -841,7 +806,7 @@ input {
 .our-work__title {
   text-align: center;
   margin-bottom: 50px;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
@@ -867,7 +832,7 @@ input {
   padding-top: 27px;
   width: 100%;
   height: 70px;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -904,13 +869,13 @@ input {
 .team__title {
   text-align: center;
   margin-bottom: 50px;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
 
 .team__subtitle {
-  font-family: "Roboto-Medium";
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
@@ -984,7 +949,7 @@ input {
 .client__title {
   text-align: center;
   margin-bottom: 50px;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
@@ -1102,7 +1067,7 @@ input {
 }
 
 .projects-list__title {
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   margin-bottom: 4px;
@@ -1178,13 +1143,13 @@ input {
 
 .footer__logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
   color: #ffffff;
 }
 
 .address {
-  font-family: "Roboto-Regular";
   font-style: normal;
   margin-top: 20px;
 }
@@ -1202,7 +1167,7 @@ input {
 
 .address__link {
   color: #ffffff;
-  font-family: "Roboto-Regular";
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   opacity: 0.6;
@@ -1221,7 +1186,7 @@ input {
 
 .social-footer__title {
   display: block;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
@@ -1286,7 +1251,7 @@ input {
           align-items: center;
   padding: 10px 28px;
   margin: 0;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
@@ -1294,7 +1259,7 @@ input {
 
 .form-footer__title {
   display: block;
-  font-family: "Roboto-Bold";
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
